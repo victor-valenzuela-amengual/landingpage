@@ -1,0 +1,59 @@
+/*Sobresscribir valores por defecto del navegadr*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color:  rgb(133, 116, 93);
+}
+
+header{
+        padding: 80;
+        background-image: url('../img/header.jpg');
+        background-position:center ;
+        background-size: cover;      
+        margin: 0 0 10px 0;
+}
+h1{
+    font-size: 50px;
+    color: rgb(41, 40, 39);
+    text-decoration: underline;
+}
+
+.productCard{
+    /*margin: 40px 0;    */
+    width: 100%;    
+    display: inline-flex;    
+    /*border: 1px solid red;   */
+    /*padding: 0 0 0 0; */
+}
+.productName{    
+    /*height: 20px;    
+    border: 1px solid red;       
+    /*padding: 0 100px 0 500px;*/
+    padding: 0 0 0 450px ;
+    margin: 0 0 20px 0;    
+    
+}
+
+.productImage{
+    width: 400px;
+    margin: 0 0 0 auto;
+    border: 3px solid rgb(58,58,58);
+    border-radius: 10px;    
+}
+p{    
+    margin: auto auto auto 20px;
+}
+.paragraph{
+    text-align: left;
+    border: 1px solid red;        
+
+}
+footer{    
+    padding: 20px;
+    text-align: center;
+    background-image: url('../img/header.jpg');
+    margin: 0;
+}
